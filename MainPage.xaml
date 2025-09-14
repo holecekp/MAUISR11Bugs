@@ -3,6 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUISR11Bugs.MainPage">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary"
+                     SemanticProperties.Description="Show more information"
+                     IconImageSource="info_24dp_white.png" />
+    </ContentPage.ToolbarItems>
+
+
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
